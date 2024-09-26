@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+.calculadora{
+    background-color: blue;
+    color: antiquewhite;
+    width: 350px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.pantalla{
+    grid-column: 2/5;
+}
+.btn{
+    color: black;
+}
